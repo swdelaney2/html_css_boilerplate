@@ -10,7 +10,7 @@ window.onload = function() {
 
   var contentContainer = document.getElementById('content')
 
-  contentContainer.innerHTML = username + ' is on a mission to ' + mission
+  contentContainer.innerHTML = username + ' is on a mission to ' + mission +'.'
 }
 
 function statusReport(message){
